@@ -400,7 +400,7 @@ void setup() {
   
   //Set up SPI.
   SPI.begin();  /* Note, SPI will disable the bult in LED*/
-  SPI.setClockDivider(SPI_CLOCK_DIV128);
+  SPI.setClockDivider(SPI_CLOCK_DIV64);
   SPI.setBitOrder(MSBFIRST);
   SPI.setDataMode(SPI_MODE1);
   
